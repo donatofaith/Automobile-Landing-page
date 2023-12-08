@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cream;
+    color: #333;
+   
+  }
+  
+  header nav{
+      background-color: black;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+  }
+  header nav .logo{
+      margin-left: 15px;
+      width: 100px;
+      padding-left: 10px;
+  }
+  header nav .menu{
+      display: flex;
+      align-items: center;
+      
+  }
+  nav .menu a{
+      color: #fff;
+      margin-left: 30px;
+      position: relative;
+      text-decoration: none;
+      
+  }
+  nav .menu a::after{
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: blue;
+      transition: 0.5s;
+  }
+  nav .menu a:hover::after{
+      width: 100%;
+  }
+  nav .Topbutton a{
+      color: white;
+      font-size: 20px;
+      position: relative;
+      padding-right: 10px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  nav .Topbutton a :hover{
+      transform: scale(1.3);
+      color: whitesmoke;
+  }
+  section { 
+      background-color: #0e64d4;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      width: 100%;
+      height: 600px;
+    }
+  h1{
+     color: yellow;
+     margin-top: 0;
+  }
+  .font {
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .font2 {
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  main section p {
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 30px;
+    width: 21%;
+    padding-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    word-spacing: 5px;
+  }
+  .p1 {
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .p2 {
+    text-align: center;
+    color: #0e64d4;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .button {
+        background-color: rgb(72, 72, 253);
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 13px;
+        border-radius: 15px;
+        position: absolute;
+        top: 695px;
+        right: 20px;
+     
+      }
+.Secondline{
+  background: #fff;
+
+}
+.carsize{
+  width: 200px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.buttonn {
+  background-color: rgb(242, 242, 248);
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 15px;
+  position: absolute;
+  width: 1400px;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+}   
+.p3{
+text-align: center;
+font-size: 200%;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 0;
+margin-top: 100px;
+}   
